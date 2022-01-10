@@ -1,0 +1,58 @@
+body, input, textarea {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #138073;
+}
+body {
+  background-color: #E6E6E6;
+  padding-top: 40px;
+}
+h1 {
+  font-size: 24px;
+  letter-spacing: 0.2em;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 520px) {
+  h1 {
+    text-align: right;
+  }
+}
+form {
+  max-width: 520px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+input[type="text"] {
+  display: block;
+  width: 100%;
+  height: 64px;
+  background-color: white;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #808080;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: #39B69F;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  width: 270px;
+  height: 70px;
+  text-transform: uppercase;
+}
